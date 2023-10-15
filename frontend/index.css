@@ -311,6 +311,10 @@ background-color:#dd4b39;
 color:#dd4b39;
 }
 
+.content-center a{
+  color: inherit;
+}
+
 /* -----------------Image dialog box---------------------- */
 .hidden {
   display: none;
