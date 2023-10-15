@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans&family=Kalam&family=Mooli&family=Poppins&family=Roboto:wght@500&family=Satisfy&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Travel Buddy</title>
+</head>
+<body>
+    <!-- <div class="bg-img">
+        <img src="./images/travel_2.jpg" alt="BG-Image">
+    </div> -->
+    <div id="about-us">
+        <h1>Travel Buddy</h1>
+        <p>This travel chatbot is a cutting-edge digital assistant designed to enhance the travel experience 
+            for users. This virtual companion is equipped with the ability to converse with travelers, 
+            providing them with valuable information, recommendations, and assistance throughout their journey.</p>
+    </div>
+    <div class="chat-content">
+        <div class="chat-messages" id="chat-messages">
+            <!-- Chat messages will be displayed here -->
+        </div>
+        <div class="chat-input">
+            <input type="text" id="user-input" placeholder="Plan your next trip...">
+            <button id="send-button">Send<div class="hoverEffect"><div></div></div></button>
+        </div>
+    </div>
+    <!-- So -->
+    <div class="content-center">
+        <ul>
+            <li><i class="fa fa-facebook fa-2x"></i></li>
+            <li><i class="fa fa-twitter fa-2x"></i></li>
+            <li><i class="fa fa-linkedin fa-2x"></i></li>
+            <li><i class="fa fa-instagram fa-2x"></i></li>
+        </ul>   
+    </div>
+
+     <!-- Dialog box for images -->
+     <div id="image-dialog" class="hidden">
+        <div id="image-container"></div>
+        <button id="close-dialog">Close</button>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
