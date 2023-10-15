@@ -17,9 +17,10 @@ body{
     text-align: center;
     left: 60%;
     top: 50px;
-    color: #74cee9;
+    color: #2dc2ef;
     padding: 0px 25px 0 25px;
     line-height: 25px;
+    font-weight: 0;
 }
 
 .chat-content {
