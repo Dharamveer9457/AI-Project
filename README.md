@@ -2,10 +2,18 @@
 This travel chatbot is a cutting-edge digital assistant designed to enhance the travel experience for users. This virtual companion is equipped with the ability to converse with travelers, providing them with valuable information, recommendations, and assistance throughout their journey.
 
 # Tech Stacks
+## Backend
 * OpenAI
 * GPT
 * Langchain
 * PineconeDB
+* Flask
+* Python
+
+## Frontend
+* Html
+* CSS
+* Javascript
 
 ## Individual Project made in a span of 4 days
 
