@@ -3,7 +3,7 @@ This travel chatbot is a cutting-edge digital assistant designed to enhance the 
 
 # How to run this project-
 1. Clone the repository
-```git clone https://github.com/yourusername/yourrepository.git```
+```git clone https://github.com/Dharamveer9457/AI-Project.git```
 
 2. Install all the dependencies in backend directory
 ```pip install -r requirements.txt```
