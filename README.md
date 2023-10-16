@@ -3,7 +3,7 @@ This travel chatbot is a cutting-edge digital assistant designed to enhance the 
 
 # How to run this project-
 ## Clone the repository
-git clone https://github.com/yourusername/yourrepository.git
+```git clone https://github.com/yourusername/yourrepository.git```
 
 # Tech Stacks
 ## Backend
