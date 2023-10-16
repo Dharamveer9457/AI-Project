@@ -1,6 +1,10 @@
 # Travel Buddy
 This travel chatbot is a cutting-edge digital assistant designed to enhance the travel experience for users. This virtual companion is equipped with the ability to converse with travelers, providing them with valuable information, recommendations, and assistance throughout their journey.
 
+# How to run this project-
+## Clone the repository
+git clone https://github.com/yourusername/yourrepository.git
+
 # Tech Stacks
 ## Backend
 * OpenAI
@@ -16,6 +20,10 @@ This travel chatbot is a cutting-edge digital assistant designed to enhance the 
 * Javascript
 
 ## Individual Project made in a span of 4 days
+
+# User Flow
+
+
 
 # UI Screenshots
 ![Screenshot 2023-10-16 034839](https://github.com/Dharamveer9457/AI-Project/assets/115460337/8f97eb1f-be6c-47d1-ad87-9d72f735b3ed)
