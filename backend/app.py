@@ -58,8 +58,8 @@ import openai
 
 app = Flask(__name__)
 
-CORS(app, resources={r"/ask": {"origins": ["http://127.0.0.1:5500"]}})
-CORS(app, resources={r"/chat": {"origins": ["http://127.0.0.1:5500"]}})
+CORS(app, resources={r"/ask": {"origins": ["http://127.0.0.1:5500", "https://travel-buddy-ga201.netlify.app"]}})
+CORS(app, resources={r"/chat": {"origins": ["http://127.0.0.1:5500", "https://travel-buddy-ga201.netlify.app"]}})
 
 product_func = [
     {
@@ -177,7 +177,7 @@ def chat():
     return jsonify({'response': chatbot_reply})
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run()
 
 
 
