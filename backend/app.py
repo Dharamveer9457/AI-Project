@@ -30,7 +30,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-OPENAI_API_KEY = "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"
+OPENAI_API_KEY = os.getenv('OPENAI_API_KEY')
 
 import pinecone
 from langchain.vectorstores import Pinecone
