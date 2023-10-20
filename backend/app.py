@@ -31,6 +31,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 OPENAI_API_KEY = os.getenv('OPENAI_API_KEY')
+PORT = os.getenv('PORT')
 
 import pinecone
 from langchain.vectorstores import Pinecone
@@ -177,7 +178,8 @@ def chat():
     return jsonify({'response': chatbot_reply})
 
 if __name__ == '__main__':
-    app.run()
+    app.run(port=PORT)
+
 
 
 
