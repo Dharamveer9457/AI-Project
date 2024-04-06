@@ -4,7 +4,7 @@ This travel chatbot is a cutting-edge digital assistant designed to enhance the 
 ## See the working of project 👇
 Go through this link ```https://youtu.be/9UF1MusIqTY```
 
-# How to run this project
+# How to run this projec
 1. Clone the repository
 ```git clone https://github.com/Dharamveer9457/AI-Project.git```
 
